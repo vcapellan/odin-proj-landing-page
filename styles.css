@@ -5,6 +5,7 @@ body {
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 .nav,
@@ -72,6 +73,11 @@ body {
     flex: 0 1 50%;
 }
 
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
 .hero-left button {
     background-color: #3882F6;
     padding: 7px 25px;
@@ -79,4 +85,34 @@ body {
     border-radius: 8px;
     border: none;
     margin: 12px 0px;
+}
+
+.info-panel {
+    text-align: center;
+    padding: 40px 0px 80px;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #1f2937;
+}
+
+.column-square {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
+    background: #e5e7eb;
+}
+
+.column-container {
+    display: flex;
+    padding: 0 20%;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.column {
+    width: 150px;
 }
