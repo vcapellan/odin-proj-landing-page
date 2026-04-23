@@ -116,3 +116,20 @@ h2 {
 .column {
     width: 150px;
 }
+
+.quote-panel {
+    padding: 80px 20%;
+}
+
+.quote-panel .quote-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-panel .quote-attribution {
+    font-size: large;
+    font-weight: bolder;
+    text-align: right;
+}
