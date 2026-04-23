@@ -133,3 +133,46 @@ h2 {
     font-weight: bolder;
     text-align: right;
 }
+
+.cta-panel {
+    padding: 80px 10%;
+    display: flex;
+}
+
+.cta {
+    background-color: #3882F6;
+    flex: 1 1 auto;
+    border-radius: 8px;
+    padding: 35px 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-header {
+    color: #f9faf8;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.cta-subtext {
+    color: #e5e7eb;
+    font-size: 14px;
+}
+
+.cta-right button {
+    background-color: #3882F6;
+    border: 2px solid #f9faf8;
+    padding: 6px 30px;
+    color: #f9faf8;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.footer {
+    color: #f9faf8;
+    padding: 30px;
+    text-align: center;
+    font-weight: lighter;
+}
