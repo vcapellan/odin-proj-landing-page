@@ -16,6 +16,7 @@ body {
 .logo,
 .hero h1 {
     color: #f9faf8;
+    margin-bottom: 6px;
 }
 
 .hero p,
@@ -54,14 +55,28 @@ body {
 
 .hero {
     display: flex;
-    padding: 0px 10%;
+    padding: 100px 10%;
+    gap: 50px
 }
 
 .hero-right {
-    width: 300px;
+    flex: 0 1 auto;
+    display: flex;
+}
+
+.hero-right img {
     flex: 0 1 auto;
 }
 
 .hero-left {
-    flex: 0 1 auto;
+    flex: 0 1 50%;
+}
+
+.hero-left button {
+    background-color: #3882F6;
+    padding: 7px 25px;
+    color: #f9faf8;
+    border-radius: 8px;
+    border: none;
+    margin: 12px 0px;
 }
